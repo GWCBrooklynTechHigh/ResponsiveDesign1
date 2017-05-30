@@ -1,0 +1,59 @@
+.placeholder {
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+header {
+  background: red;
+}
+
+article {
+  background: yellow;
+}
+
+aside {
+  background: green;
+}
+
+footer {
+  background: blue;
+}
+
+@media screen and (min-width: 500px) {
+    header {
+      width: 100%;
+      float: left;
+    }
+    article {
+      float: left;
+      width: 60%;
+    }
+    aside {
+      float: left;
+      width: 40%;
+    }
+    footer {
+      float: left;
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px){
+  header {
+    float: left;
+    width: 20%;
+  }
+  article {
+    float: left;
+    width: 60%;
+  }
+  aside {
+    float: left;
+    width: 20%;
+  }
+  footer {
+    float: left;
+    width: 100%;
+  }
+}
